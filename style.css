@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(24, 6, 6);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#blinking {
+    animation: blink 1s infinite;
+}
+
+.menu-links {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s;
+}
+
+.menu-link:hover {
+    color: gray;
+}
+
+.content {
+    padding: 20px;
+}
+
+.home-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.job-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: rgb(128, 128, 128);
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #05080c;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(72, 42, 155);
+}
+.About{
+    padding: 50px;
+    text-align: center;
+}
